@@ -12,7 +12,7 @@ def getIP_all():
             print("Error! No connection to internet.")
             quit(0)
         else:
-            return(str(ipFetch.read()))
+            return(str(ipFetch.read())
     else:
         import urllib
         ipFetch = urllib.urlopen("https://ip-api.mrkakisen.net/api/v1/plainText/")
@@ -20,4 +20,4 @@ def getIP_all():
             print("Error! No connection to internet.")
             quit(0)
         else:
-            return(ipFetch.read()))
+            return(ipFetch.read())
