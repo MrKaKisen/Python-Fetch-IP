@@ -7,7 +7,7 @@ Coming soon.
 # How to use
 Example:
 ```
-from ip_library.ip import *
+from iplibrary.ip import *
 
 print(getIP_all())
 ```
