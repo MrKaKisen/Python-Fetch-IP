@@ -2,7 +2,10 @@
 This is a simple python module for fetching the users IP address.
 
 # Installation
-Coming soon.
+To install, you need `pip`. If you do not have it already, install it on apt-get systems by typing: `sudo apt-get install python-pip`
+
+Then run:
+`sudo pip install iplibrary`
 
 # How to use
 Example:
